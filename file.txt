@@ -1,0 +1,24 @@
+mov eax,44
+mov ebx,45
+add eax,ebx
+mov ecx,ebx
+mul ecx,100
+mov edx,10
+and edx,ecx
+label0:
+jmp label1,
+cmp ecx,edx
+label1:
+add efx,25
+cmp efx,26
+jle label2,
+mov eax,0
+label2:
+mov eix,20
+mov ehx,efx
+cmp ehx,eix
+jl labelmabel,
+mov eex,1234
+labelmabel:
+mov ehx,100
+add ehx,eax
